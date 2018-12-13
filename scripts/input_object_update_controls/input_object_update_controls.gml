@@ -1,3 +1,4 @@
+/// @description Update a specificed input objects controls
 /// @param Object*
 
 if (argument_count == 0)

@@ -1,3 +1,5 @@
+/// @description Navigate Menu. Replace this with your own menu navigation system
+
 // Toggle Control Mapping
 if (keyboard_check_pressed(vk_enter) && !global.mapping_controls)
 	draw_controls = !draw_controls;

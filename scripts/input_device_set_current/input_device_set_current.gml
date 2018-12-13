@@ -1,3 +1,4 @@
+/// @description Assign the global input_device 
 /// @param device_name
 
 if (!ds_exists(global.input_devices, ds_type_map))

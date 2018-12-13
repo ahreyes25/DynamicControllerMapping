@@ -1,3 +1,4 @@
+/// @description Get specified key from specific input device
 /// @param input_device_name
 /// @param control
 

@@ -1,8 +1,8 @@
 {
-    "id": "a5b9cbdc-5a43-4955-ae88-f98c69e43796",
+    "id": "2a68b42a-fc82-4d17-a768-ae61006edba0",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "control_remove",
+    "name": "input_object_destroy",
     "IsCompatibility": false,
     "IsDnD": false
 }

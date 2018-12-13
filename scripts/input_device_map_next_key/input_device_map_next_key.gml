@@ -1,3 +1,4 @@
+/// @description Get next input and store it to the specified input device and control
 /// @param input_device
 /// @param control
 
@@ -12,11 +13,11 @@ if (gamepad_axis_value(gamepad_get_port(input_device), gp_axislh) == 0 &&
 	// Update with gamepad buttons
 	if (gamepad_check_anykey(gamepad_get_port(input_device))) {
 		input_device_update_key(input_device, control, gamepad_anykey(gamepad_get_port(input_device)));
+		show_debug_message(gamepad_anykey(gamepad_get_port(input_device)));
 	}
 	// Update with keyboard keys
-	else if (keyboard_check_pressed(vk_anykey) && !keyboard_check(global.map_key)) {
+	else if (keyboard_check_pressed(vk_anykey) && !keyboard_check(global.map_key))
 		input_device_update_key(input_device, control, keyboard_key);
-	}
 }
 // Update with joystick
 else {

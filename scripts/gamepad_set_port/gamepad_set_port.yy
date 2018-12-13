@@ -1,5 +1,5 @@
 {
-    "id": "5dbe0e24-677f-4143-8a7f-d94b1159ae41",
+    "id": "f52d4dfd-e782-4977-a690-709fe87f1298",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "gamepad_set_port",

@@ -1,3 +1,4 @@
+/// @description Place in the create event of an input object
 /// @param object*
 /// @param input_device*
 
@@ -25,4 +26,12 @@ if (!ds_list_find_value(global.input_objects, ds_list_find_index(global.input_ob
 	ds_list_add(global.input_objects, obj);
 	
 // Set Deadzone
-gamepad_set_deadzone(id.player - 1);
+gamepad_set_deadzone(gamepad_get_port(obj.input_device));
+
+// Set port
+if (is_controller(obj.input_device))
+	obj.port = gamepad_get_port(obj.input_device);
+else
+	obj.port = -1;
+
+show_debug_message("Input object: \"" + string(obj.object_index) + "\" initialized with input device: \"" + string(obj.input_device) + "\".");

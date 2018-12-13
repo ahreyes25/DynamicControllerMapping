@@ -1,3 +1,5 @@
+/// @description Update every input objects controls
+
 if (!ds_exists(global.input_objects, ds_type_list))
 	return;
 	

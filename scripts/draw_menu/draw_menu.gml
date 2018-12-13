@@ -1,7 +1,15 @@
+/// @description Draw Menu. Replace this with your own menu draw event
+
+// Draw Fade Over Screen
 draw_set_alpha(0.75);
 draw_rectangle_color(0, 0, room_width, room_height, c_black, c_black, c_black, c_black, false);	
 draw_set_alpha(1.0);
-draw_sprite(sController, 0, (room_width / 2) - (sprite_get_width(sController) / 2), room_height / 2);
+
+// Draw Controller & Keyboard Image
+if (string_contains(input_device_get_current(), "pad"))
+	draw_sprite(sController, 0, (room_width / 2) - (sprite_get_width(sController) / 2), room_height / 2);
+else
+	draw_sprite(sController, 1, (room_width / 2) - (sprite_get_width(sController) / 2), room_height / 2);
 	
 var word_spacing = 20;
 var start_y = (room_height / 2) - (global.number_of_controls / 2) * word_spacing;

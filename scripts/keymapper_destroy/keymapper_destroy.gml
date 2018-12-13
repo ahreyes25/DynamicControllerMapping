@@ -7,5 +7,7 @@ if (ds_exists(global.controls, ds_type_list))
 if (ds_exists(global.input_objects, ds_type_list))
 	ds_list_destroy(global.input_objects);
 	
-if (ds_exists(global.input_ports, ds_type_list))
-	ds_list_destroy(global.input_ports);
+if (ds_exists(global.gamepad_ports, ds_type_list))
+	ds_list_destroy(global.gamepad_ports);
+	
+show_debug_message("Keymapper destroyed.");

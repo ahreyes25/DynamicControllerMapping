@@ -1,3 +1,5 @@
+/// @description Set gamepad deadzone, if no parameter is provided, then default value of 0.7 will be used
+
 /// @param gamepad_port
 /// @param deadzone*
 

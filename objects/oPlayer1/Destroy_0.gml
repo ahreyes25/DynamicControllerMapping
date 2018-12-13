@@ -1,0 +1,1 @@
+input_object_destroy();

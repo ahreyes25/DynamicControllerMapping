@@ -1,3 +1,4 @@
+/// @description Check for gamepad or keyboard button 
 /// @param key
 
 if (!is_string(argument0))

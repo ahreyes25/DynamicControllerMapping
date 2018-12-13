@@ -1,3 +1,4 @@
+/// @description Add a new key to the specified input_device
 /// @param input_device_name
 /// @param control
 /// @param key

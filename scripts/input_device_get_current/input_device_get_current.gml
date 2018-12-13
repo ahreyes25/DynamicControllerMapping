@@ -1,3 +1,5 @@
+/// @description Get the global current input device
+
 if (ds_map_size(global.input_devices) > 1) {
 	return global.current_device;
 }

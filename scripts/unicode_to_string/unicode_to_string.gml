@@ -1,6 +1,9 @@
-var uni = argument0;
+/// @description Translate unicode values from the keyboard and gamepad to string
+// values for drawing menu and current controls
 
-switch(uni) {
+/// @param Unicode
+
+switch(argument0) {
 	case 81:
 		return "Q";
 	case 87:
@@ -53,4 +56,38 @@ switch(uni) {
 		return "N";
 	case 77:
 		return "M";
+	case 32783:
+		return "Dpad Left";
+	case 32784:
+		return "Dpad Right";
+	case 32781:
+		return "Dpad Up";
+	case 32782:
+		return "Dpad Down";
+	case 32771:
+		return "Left Face Button";
+	case 32770:
+		return "Right Face Button";
+	case 32772:
+		return "Up Face Button";
+	case 32769:
+		return "Down Face Button";
+	case 32773:
+		return "Left Bumper";
+	case 32775:
+		return "Left Trigger";
+	case 32774:
+		return "Right Bumper";
+	case 32776:
+		return "Right Trigger";
+	case 32778:
+		return "Start";
+	case 32777:
+		return "Select";
+	case 32779:
+		return "Left Stick Click";
+	case 32780:
+		return "Right Stick Click";
+	default:
+		return argument0;
 }

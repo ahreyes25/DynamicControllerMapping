@@ -12,17 +12,19 @@ if (!oGame.draw_controls) {
 		y += 3;	
 }
 
+/*
 if (!global.mapping_controls) {
 	if (keyboard_check_pressed(ord("Q"))) {
-		if (global.current_device == "gamepad0") {
-			//input_object_update_device(id, "keyboard1");
+		if (input_device == "gamepad0") {
+			input_object_update_device(id, "keyboard1");
 			input_device_set_current("keyboard1");
-			//input_object_update_controls();
+			input_object_update_controls();
 		}
 		else {
-			//input_object_update_device(id, "gamepad0");
+			input_object_update_device(id, "gamepad0");
 			input_device_set_current("gamepad0");
-			//input_object_update_controls();
+			input_object_update_controls();
 		}
 	}
 }
+*/

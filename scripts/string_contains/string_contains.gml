@@ -1,3 +1,5 @@
+/// @description My own method for checking for a substring, using the string_pos() method
+
 /// @param string
 /// @param substring
 

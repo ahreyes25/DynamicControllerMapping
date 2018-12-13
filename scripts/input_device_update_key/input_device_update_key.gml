@@ -1,3 +1,4 @@
+/// @description Update key in specified input device
 /// @param input_device_name
 /// @param control
 /// @param key

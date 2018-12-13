@@ -1,3 +1,4 @@
+/// @description Remove a key from an input_device
 /// @param input_device_name
 /// @param control
 

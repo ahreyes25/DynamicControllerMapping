@@ -77,9 +77,9 @@
             }
         },
         {
-            "Key": "0aaf5983-0302-47ea-a63d-1406d92db7ea",
+            "Key": "0c0c370a-fdff-4b38-8355-ae47278d3be5",
             "Value": {
-                "id": "b2f91b17-361f-46d8-b7f7-10fffcb57550",
+                "id": "14b1f1ed-6eae-48f7-8184-0bd8a134c652",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -91,8 +91,8 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/control_add\/control_add.yy",
-                "resourceType": "GMScript"
+                "resourcePath": "objects\/oPlayer2\/oPlayer2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -205,7 +205,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/input_object_remove\/input_object_remove.yy",
+                "resourcePath": "scripts\/input_object_destroy\/input_object_destroy.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -400,6 +400,25 @@
             }
         },
         {
+            "Key": "5bc49018-f36a-4653-a0aa-02ceae0c192d",
+            "Value": {
+                "id": "3089c6f9-3f97-415b-a8d6-598c9979ffae",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/is_controller\/is_controller.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5c892cc2-e384-4110-99f8-ba0809a964dd",
             "Value": {
                 "id": "0b02d62b-41ea-4cb0-849d-a752d3da7560",
@@ -434,25 +453,6 @@
                     "default"
                 ],
                 "resourcePath": "scripts\/gamepad_check_pressed_anykey\/gamepad_check_pressed_anykey.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "5dbe0e24-677f-4143-8a7f-d94b1159ae41",
-            "Value": {
-                "id": "98376127-d1ba-48fd-9e85-9d7afc6072d0",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/gamepad_set_port\/gamepad_set_port.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -758,25 +758,6 @@
                 ],
                 "resourcePath": "views\/a54e7089-db94-496f-a5bd-5c8c3cdd9672.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a5b9cbdc-5a43-4955-ae88-f98c69e43796",
-            "Value": {
-                "id": "aa935ebb-f104-46db-94e9-fe0d3561735d",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/control_remove\/control_remove.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1236,6 +1217,25 @@
             }
         },
         {
+            "Key": "f52d4dfd-e782-4977-a690-709fe87f1298",
+            "Value": {
+                "id": "d1efc503-4876-44ae-a264-de0aa7acf30b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/gamepad_set_port\/gamepad_set_port.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fce29351-e496-4283-9791-c31dd9957dac",
             "Value": {
                 "id": "0667367d-7f02-4607-8e5a-5fbab8e3cb77",
@@ -1312,19 +1312,18 @@
         "65ba923f-aae2-48a4-b951-394374c218e5",
         "16d4f37f-d73b-4128-8040-c68ffb2866e4",
         "f4ca58c5-96e3-47cb-a406-072d0f7a287d",
+        "c667fb56-4911-4e07-8bdd-fee127f3d20f",
         "1800f06e-14a0-4623-b63a-b9a193304500",
         "5d56d8a3-4d6a-46ae-825d-112e643c5f25",
         "b83d1275-85e2-49e6-94e1-223a695456e2",
         "904e513d-96f3-4f91-a8e5-31445ced25da",
-        "0aaf5983-0302-47ea-a63d-1406d92db7ea",
-        "a5b9cbdc-5a43-4955-ae88-f98c69e43796",
         "07ed23ef-528e-4ab5-84da-255dc1f7cf55",
-        "5dbe0e24-677f-4143-8a7f-d94b1159ae41",
+        "f52d4dfd-e782-4977-a690-709fe87f1298",
         "6369b19a-5e78-49a1-9ae2-eede934e92f9",
         "bf92b597-6355-4289-b327-34c3642935e7",
-        "c667fb56-4911-4e07-8bdd-fee127f3d20f",
         "25680d28-7e11-4e7d-99f2-9f5d96e32889",
         "35e93245-f261-4968-9e5c-eb509ba61e63",
+        "5bc49018-f36a-4653-a0aa-02ceae0c192d",
         "07dd2a7d-3a74-4c71-bffb-40e4896e5ba6",
         "fce29351-e496-4283-9791-c31dd9957dac"
     ],
