@@ -77,25 +77,6 @@
             }
         },
         {
-            "Key": "0c0c370a-fdff-4b38-8355-ae47278d3be5",
-            "Value": {
-                "id": "14b1f1ed-6eae-48f7-8184-0bd8a134c652",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/oPlayer2\/oPlayer2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "16d4f37f-d73b-4128-8040-c68ffb2866e4",
             "Value": {
                 "id": "9c6ca15b-b6f4-43b2-bea9-fdfc3612a797",
@@ -1269,7 +1250,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/oGame\/oGame.yy",
+                "resourcePath": "objects\/oGameController\/oGameController.yy",
                 "resourceType": "GMObject"
             }
         },

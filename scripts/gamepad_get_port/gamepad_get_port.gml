@@ -7,4 +7,11 @@ for (var i = 0; i < ds_list_size(global.gamepad_ports); i++) {
 		return i;
 	}
 }
+
+for (var i = 0; i < ds_list_size(global.input_objects); i++) {
+	var o = ds_list_find_value(global.input_objects, i);
+	if (o.input_device == argument0)
+		return o.port;
+}
+
 return -1;

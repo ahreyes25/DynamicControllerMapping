@@ -2,7 +2,7 @@
     "id": "fd58b195-948c-41bd-a170-e4c68b4bd7e2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGame",
+    "name": "oGameController",
     "eventList": [
         {
             "id": "7b3c02aa-c381-449b-b847-66f3e5d9acfc",

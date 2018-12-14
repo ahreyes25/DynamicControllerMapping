@@ -6,7 +6,6 @@ if (argument_count == 0)
 else if (argument_count == 1)
 	var obj = argument[0];
 
-obj.jump_key	= input_device_get_key(obj.input_device, "jump");
 obj.left_key	= input_device_get_key(obj.input_device, "left");
 obj.right_key	= input_device_get_key(obj.input_device, "right");
 obj.up_key		= input_device_get_key(obj.input_device, "up");

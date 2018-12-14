@@ -1,5 +1,5 @@
 /// @description Place in the destroy event of an input object
-/// @param input_object
+/// @param input_object*
 
 if (argument_count == 1)
 	var obj = argument[0];

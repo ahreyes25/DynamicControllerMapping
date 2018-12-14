@@ -2,7 +2,6 @@
 /// @param input_device_name
 var input_device_name = argument0;
 
-return	string_contains(input_device_name, "pad")		|| 
-		string_contains(input_device_name, "game")		|| 
-		string_contains(input_device_name, "controller"	||
+return	(string_contains(input_device_name, "pad")	|| 
+		string_contains(input_device_name, "game")	|| 
 		string_contains(input_device_name, "control"));

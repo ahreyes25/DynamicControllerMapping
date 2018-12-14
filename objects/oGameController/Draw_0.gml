@@ -5,7 +5,7 @@ if (draw_controls)
 if (!draw_controls)
 	draw_text(20, 20, "KeyDown: " + string(unicode_to_string(keyboard_key)));
 	
-draw_text(20, 60, "---INPUT DEVICES---");
+draw_text(20, 60, "---GAMEPADS---");
 for (var i = 0; i < ds_list_size(global.gamepad_ports); i++) {
 	draw_text(20, 80 + (20 * i), string(i) + " -> " + string(ds_list_find_value(global.gamepad_ports, i)));
 }

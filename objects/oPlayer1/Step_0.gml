@@ -1,7 +1,5 @@
-if (!oGame.draw_controls) {
+if (!oGameController.draw_controls) {
 	
-	if (input_check_pressed(jump_key))
-		y -= 3;
 	if (input_check(left_key) || joystick_check(left_key))
 		x -= 3;
 	if (input_check(right_key) || joystick_check(right_key))
@@ -14,15 +12,15 @@ if (!oGame.draw_controls) {
 
 if (!global.mapping_controls) {
 	if (keyboard_check_pressed(ord("Q"))) {
-		if (global.current_device == "gamepad0") {
-			//input_object_update_device(id, "keyboard1");
-			input_device_set_current("keyboard1");
-			//input_object_update_controls();
+		if (global.current_device == "gamepad_blue") {
+			input_object_update_device(id, "keyboard_0");
+			input_device_set_current("keyboard_0");
+			input_object_update_controls();
 		}
 		else {
-			//input_object_update_device(id, "gamepad0");
-			input_device_set_current("gamepad0");
-			//input_object_update_controls();
+			input_object_update_device(id, "gamepad_blue");
+			input_device_set_current("gamepad_blue");
+			input_object_update_controls();
 		}
 	}
 }
