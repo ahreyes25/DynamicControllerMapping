@@ -1,8 +1,8 @@
 {
-    "id": "6369b19a-5e78-49a1-9ae2-eede934e92f9",
+    "id": "2a2dd4ef-6208-4d6b-a7b8-240289991901",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "gamepad_get_deadzone",
+    "name": "input_object_inputs",
     "IsCompatibility": false,
     "IsDnD": false
 }

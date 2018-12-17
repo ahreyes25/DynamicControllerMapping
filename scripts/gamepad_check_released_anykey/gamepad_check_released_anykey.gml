@@ -1,4 +1,11 @@
-/// @description Check For Anybutton released on the gamepad
+/// @description -- gamepad_check_released_anykey();
+//	Parameters:	--- port : integer
+//	Returns: ------ button : unicode
+//
+//	This script returns the current gamepad button that is being pressed down
+//--------------------------------------------------------------------------------------------------
+/// @param port
+//--------------------------------------------------------------------------------------------------
 
 /// @param controller_port
 var port = argument0;

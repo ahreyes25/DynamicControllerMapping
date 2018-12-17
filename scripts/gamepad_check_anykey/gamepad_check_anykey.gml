@@ -1,4 +1,12 @@
-/// @description Check For Anybutton on the gamepad
+/// @description -- gamepad_check_anykey();
+//	Parameters:	--- port : integer
+//	Returns: ------ boolean
+//
+//	This script returns true/false depending on if any button is being pressed down on a specific
+//	controller.
+//--------------------------------------------------------------------------------------------------
+/// @param port
+//--------------------------------------------------------------------------------------------------
 
 /// @param controller_port
 var port = argument0;

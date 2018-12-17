@@ -172,6 +172,25 @@
             }
         },
         {
+            "Key": "2a2dd4ef-6208-4d6b-a7b8-240289991901",
+            "Value": {
+                "id": "f3d3b1ce-9a90-4ac1-a754-f540abc9fb59",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/input_object_inputs\/input_object_inputs.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2a68b42a-fc82-4d17-a768-ae61006edba0",
             "Value": {
                 "id": "027b2ba4-7d30-4a95-b9e8-5233c9743317",
@@ -438,25 +457,6 @@
             }
         },
         {
-            "Key": "6369b19a-5e78-49a1-9ae2-eede934e92f9",
-            "Value": {
-                "id": "5f63e188-afca-405d-bb0d-3bbdd0e1938f",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/gamepad_get_deadzone\/gamepad_get_deadzone.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "65ba923f-aae2-48a4-b951-394374c218e5",
             "Value": {
                 "id": "d1073656-dd92-45d7-ab35-64ccfefaa0c2",
@@ -511,6 +511,25 @@
                 ],
                 "resourcePath": "views\/7053098d-ecec-44bc-aebe-9d36c206c2cd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "77b0604f-6386-49a7-b58f-21ad37271390",
+            "Value": {
+                "id": "5582c048-0796-46cc-be22-404efee6fb10",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/remove_control\/remove_control.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -932,25 +951,6 @@
             }
         },
         {
-            "Key": "bf92b597-6355-4289-b327-34c3642935e7",
-            "Value": {
-                "id": "da7fba7f-f064-489d-b4cd-2bdfb276f095",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "scripts\/gamepad_set_deadzone\/gamepad_set_deadzone.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "c3546d20-cb37-4f04-8d4a-91095482699f",
             "Value": {
                 "id": "eb37d6ba-9811-4034-aee3-395c6879dbe9",
@@ -1290,6 +1290,7 @@
         "85277ba7-3784-4d65-bcae-908dd30f394f",
         "2b72bb23-eec4-4a97-8513-33a818b0cc12",
         "be6bbe63-7461-470c-8f09-09944ffa68f1",
+        "2a2dd4ef-6208-4d6b-a7b8-240289991901",
         "65ba923f-aae2-48a4-b951-394374c218e5",
         "16d4f37f-d73b-4128-8040-c68ffb2866e4",
         "f4ca58c5-96e3-47cb-a406-072d0f7a287d",
@@ -1300,11 +1301,10 @@
         "904e513d-96f3-4f91-a8e5-31445ced25da",
         "07ed23ef-528e-4ab5-84da-255dc1f7cf55",
         "f52d4dfd-e782-4977-a690-709fe87f1298",
-        "6369b19a-5e78-49a1-9ae2-eede934e92f9",
-        "bf92b597-6355-4289-b327-34c3642935e7",
         "25680d28-7e11-4e7d-99f2-9f5d96e32889",
         "35e93245-f261-4968-9e5c-eb509ba61e63",
         "5bc49018-f36a-4653-a0aa-02ceae0c192d",
+        "77b0604f-6386-49a7-b58f-21ad37271390",
         "07dd2a7d-3a74-4c71-bffb-40e4896e5ba6",
         "fce29351-e496-4283-9791-c31dd9957dac"
     ],

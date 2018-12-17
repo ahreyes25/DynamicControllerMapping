@@ -12,9 +12,9 @@ else
 	draw_sprite(sController, 1, (room_width / 2) - (sprite_get_width(sController) / 2), room_height / 2);
 	
 var word_spacing = 20;
-var start_y = (room_height / 2) - (global.number_of_controls / 2) * word_spacing;
+var start_y = (room_height / 2) - (ds_list_size(global.controls) / 2) * word_spacing;
 // Draw Controls
-for (var i = 0; i < global.number_of_controls; i++) {
+for (var i = 0; i < ds_list_size(global.controls); i++) {
 	if (i == control_index && global.mapping_controls) 
 		draw_set_color(c_red);
 	else
@@ -28,7 +28,7 @@ for (var i = 0; i < global.number_of_controls; i++) {
 }
 	
 // Draw Keys
-for (var i = 0; i < global.number_of_controls; i++) {
+for (var i = 0; i < ds_list_size(global.controls); i++) {
 	if (i == control_index && global.mapping_controls) 
 		draw_set_color(c_red);
 	else

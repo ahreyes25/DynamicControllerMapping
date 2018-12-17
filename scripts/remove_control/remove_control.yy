@@ -1,8 +1,8 @@
 {
-    "id": "bf92b597-6355-4289-b327-34c3642935e7",
+    "id": "77b0604f-6386-49a7-b58f-21ad37271390",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "gamepad_set_deadzone",
+    "name": "remove_control",
     "IsCompatibility": false,
     "IsDnD": false
 }

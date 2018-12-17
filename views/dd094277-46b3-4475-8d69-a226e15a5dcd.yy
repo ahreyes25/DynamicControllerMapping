@@ -8,7 +8,8 @@
         "2a68b42a-fc82-4d17-a768-ae61006edba0",
         "85277ba7-3784-4d65-bcae-908dd30f394f",
         "2b72bb23-eec4-4a97-8513-33a818b0cc12",
-        "be6bbe63-7461-470c-8f09-09944ffa68f1"
+        "be6bbe63-7461-470c-8f09-09944ffa68f1",
+        "2a2dd4ef-6208-4d6b-a7b8-240289991901"
     ],
     "filterType": "GMScript",
     "folderName": "input_objects",

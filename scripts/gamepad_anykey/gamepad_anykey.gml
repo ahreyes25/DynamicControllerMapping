@@ -1,6 +1,12 @@
-/// @description Return whatever button is being pressed on the gamepad
+/// @description -- gamepad_anykey();
+//	Parameters:	--- port : integer
+//	Returns: ------ button : unicode
+//
+//	This script returns the current gamepad button that is being pressed down
+//--------------------------------------------------------------------------------------------------
+/// @param port
+//--------------------------------------------------------------------------------------------------
 
-/// @param controller_port
 var port = argument0;
 
 if (gamepad_button_check(port, gp_padl))

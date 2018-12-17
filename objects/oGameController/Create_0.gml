@@ -1,5 +1,6 @@
-draw_controls = false;
-control_index = 0;
+draw_controls	= false;
+control_index	= 0;
+map_key			= vk_shift;	
 
 keymapper_init();
 
