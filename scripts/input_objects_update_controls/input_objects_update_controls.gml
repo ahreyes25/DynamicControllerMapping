@@ -19,6 +19,7 @@ if (!ds_exists(global.input_objects, ds_type_list))
 //	Update input keys for every input_object in our global.input_objects list
 for (var i = 0; i < ds_list_size(global.input_objects); i++) {
 	var obj = ds_list_find_value(global.input_objects, i);
-	input_object_inputs(obj);
+	if (instance_exists(obj))
+		input_object_inputs(obj);
 }
 return true;

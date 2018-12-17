@@ -23,10 +23,14 @@ else if (argument_count == 1)
 	var obj = argument[0];
 
 // Update input_object's input keys
-input_object_inputs(obj);
+if (instance_exists(obj)) {
+	input_object_inputs(obj);
 
-// Check to see if object is in input_objects list
-if (!ds_list_find_value(global.input_objects, ds_list_find_index(global.input_objects, obj)))
-	ds_list_add(global.input_objects, obj);
+	// Check to see if object is in input_objects list
+	if (!ds_list_find_value(global.input_objects, ds_list_find_index(global.input_objects, obj)))
+		ds_list_add(global.input_objects, obj);
 	
-return true;
+	return true;
+}
+else
+	return false;

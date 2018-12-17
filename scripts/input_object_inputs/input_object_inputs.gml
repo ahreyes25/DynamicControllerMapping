@@ -17,14 +17,19 @@
 //--------------------------------------------------------------------------------------------------
 
 var obj = argument0;
-obj.left_key	= input_device_get_key(obj.input_device, "left");
-obj.right_key	= input_device_get_key(obj.input_device, "right");
-obj.up_key		= input_device_get_key(obj.input_device, "up");
-obj.down_key	= input_device_get_key(obj.input_device, "down");
 
-return ([
-	obj.left_key,
-	obj.right_key,
-	obj.up_key,
-	obj.down_key,
-])
+if (instance_exists(obj)) {
+	obj.left_key	= input_device_get_key(obj.input_device, "left");
+	obj.right_key	= input_device_get_key(obj.input_device, "right");
+	obj.up_key		= input_device_get_key(obj.input_device, "up");
+	obj.down_key	= input_device_get_key(obj.input_device, "down");
+
+	return ([
+		obj.left_key,
+		obj.right_key,
+		obj.up_key,
+		obj.down_key,
+	])
+}
+else
+	return[];

@@ -22,7 +22,11 @@ else
 	var obj = id;
 
 // Remove ourself from the list of objects that take an input
-if (ds_list_find_value(global.input_objects, ds_list_find_index(global.input_objects, obj)))
-	ds_list_delete(global.input_objects, ds_list_find_index(global.input_objects, obj));
+if (instance_exists(obj)) {
+	if (ds_list_find_value(global.input_objects, ds_list_find_index(global.input_objects, obj)))
+		ds_list_delete(global.input_objects, ds_list_find_index(global.input_objects, obj));
 	
-show_debug_message("Input object: \"" + string(obj.object_index) + "\" destroyed.");
+	show_debug_message("Input object: \"" + string(obj.object_index) + "\" removed from input system.");
+}
+else
+	show_debug_message("Unable to remove input object: \"" + string(obj.object_index) + "\" from input system.");

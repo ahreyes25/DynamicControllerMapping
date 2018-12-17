@@ -21,7 +21,8 @@ for (var i = 0; i < ds_list_size(global.gamepad_ports); i++) {
 //	If input_device is not in gamepad list, then get the most recent port stored in the object
 for (var i = 0; i < ds_list_size(global.input_objects); i++) {
 	var o = ds_list_find_value(global.input_objects, i);
-	if (o.input_device == argument0)
-		return o.port;
+	if (instance_exists(o))
+		if (o.input_device == argument0)
+			return o.port;
 }
 return -1;

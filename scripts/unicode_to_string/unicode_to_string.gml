@@ -1,8 +1,16 @@
-/// @description	Translate unicode values from the keyboard and gamepad to string
-//					values for drawing menu and current controls
+/// @description -- unicode_to_string(unicode_value);
+//	Parameters:	--- unicode_value | integer
+//	Returns: ------ string representation
+//
+//	Translate unicode values from the keyboard and gamepad to string values for drawing to the menu
+//	and displaying the current controls
+//--------------------------------------------------------------------------------------------------
 /// @param Unicode
+//--------------------------------------------------------------------------------------------------
 
-switch(argument0) {
+var uni = argument0;
+
+switch(uni) {
 	case 81:
 		return "Q";
 	case 87:
@@ -87,7 +95,7 @@ switch(argument0) {
 		return "9";
 	case 161:
 		return "Right Shift";
-	case 162:
+	case 160:
 		return "Left Shift";
 	case 91:
 		return "Right Command";
@@ -132,5 +140,5 @@ switch(argument0) {
 	case 32780:
 		return "Right Stick Click";
 	default:
-		return argument0;
+		return uni;
 }

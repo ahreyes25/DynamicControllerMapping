@@ -20,4 +20,7 @@ else if (argument_count == 1) {
 }
 
 //	Set object's port variable
-obj.port = p;
+if (instance_exists(obj))
+	obj.port = p;
+else
+	return;

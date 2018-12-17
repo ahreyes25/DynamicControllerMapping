@@ -26,7 +26,11 @@ else {
 }
 
 // Update input_device
-obj.input_device = input_device_name;
+if (instance_exists(obj)) {
+	obj.input_device = input_device_name;
+	show_debug_message("Input object: \"" + string(obj.object_index) + "\" input device updated to: \"" + string(input_device_name) + "\".");
+	return true;
+}
 
-show_debug_message("Input object: \"" + string(obj.object_index) + "\" input device updated to: \"" + string(input_device_name) + "\".");
-return true;
+show_debug_message("Input object: \"" + string(obj.object_index) + "\" could not be updated.");
+return false;
