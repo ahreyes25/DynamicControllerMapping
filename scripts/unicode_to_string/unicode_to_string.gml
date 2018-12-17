@@ -1,6 +1,5 @@
-/// @description Translate unicode values from the keyboard and gamepad to string
-// values for drawing menu and current controls
-
+/// @description	Translate unicode values from the keyboard and gamepad to string
+//					values for drawing menu and current controls
 /// @param Unicode
 
 switch(argument0) {
@@ -56,6 +55,50 @@ switch(argument0) {
 		return "N";
 	case 77:
 		return "M";
+	case 37:
+		return "Left Arrow";
+	case 39:
+		return "Right Arrow";
+	case 38:
+		return "Up Arrow";
+	case 40:
+		return "Down Arrow";
+	case 32:
+		return "Spacebar";
+	case 48:
+		return "0";
+	case 49:
+		return "1";
+	case 50:
+		return "2";
+	case 51:
+		return "3";
+	case 52:
+		return "4";
+	case 53:
+		return "5";
+	case 54:
+		return "6";
+	case 55:
+		return "7";
+	case 56:
+		return "8";
+	case 57:
+		return "9";
+	case 161:
+		return "Right Shift";
+	case 162:
+		return "Left Shift";
+	case 91:
+		return "Right Command";
+	case 92:
+		return "Left Command";
+	case 164:
+		return "Left Alt";
+	case 165:
+		return "Right Alt";
+	case 162:
+		return "Left Ctrl";
 	case 32783:
 		return "Dpad Left";
 	case 32784:
